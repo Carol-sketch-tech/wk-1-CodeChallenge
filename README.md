@@ -15,3 +15,4 @@ Otherwise, the else if bblock is checked if the onditions are true and therfore 
 
 # Challange 3
 # Net Salary Calculator.
+The Net Salary Calculator uses a variety of methods to get the net salary.These include declaring variables,functions and calling variables down the code.

@@ -1,7 +1,9 @@
 // Code Challenge 3
 
+const  grossIncomeAnnual= 4000000
+// PAYE
 function PAYE(){
-    const  grossIncomeAnnual= 4000000
+    
     if (grossIncomeAnnual <= 24000){
         let x = grossIncomeAnnual * 0.1;
         return x
@@ -30,13 +32,14 @@ function PAYE(){
 
     
    // NSSF
-grossIncomeAnnual = 4000000;
 const NSSF = grossIncomeAnnual * 0.06;
+
 
 // NET SALARY
 const  calculateNetSalary =NetSalary;
      const NetSalary =   PAYE + NSSF - grossIncomeAnnual;
-return calculateNetSalary;
+ console.log(NetSalary);
+ return NetSalary;
 
 
 
